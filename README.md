@@ -71,7 +71,7 @@ All integrals and inequalities appear in closed form; no numerical simulation, c
 
 Write energy density ε(ρ) and pressure P(ρ) in *c = 1* units.  The specific enthalpy per unit rest-mass is
 
-     h(ρ) ≡ (ε + P)/ρ                                            (1)
+     h(ρ) ≡ (ε + P)/ρ                                               (1)
      
 Positive h guarantees SEC compliance.  We engineer an EoS for which h crosses zero while causality (c_s² ≤ 1) holds.
 
@@ -277,7 +277,7 @@ We have constructed, from first principles and analytic expressions alone, a con
 
 ## License
 
-Copyright (c) 2025 mikelexicon
+Copyright (c) 2025 mikelexicon 
 
 This manuscript is distributed under the terms of the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
