@@ -72,7 +72,8 @@ All integrals and inequalities appear in closed form; no numerical simulation, c
 Write energy density ε(ρ) and pressure P(ρ) in *c = 1* units.  The specific enthalpy per unit rest-mass is
 
      h(ρ) ≡ (ε + P)/ρ                                            (1)
-    Positive h guarantees SEC compliance.  We engineer an EoS for which h crosses zero while causality (c_s² ≤ 1) holds.
+     
+Positive h guarantees SEC compliance.  We engineer an EoS for which h crosses zero while causality (c_s² ≤ 1) holds.
 
 ### 2.2 Piecewise Analytic EoS
 
@@ -88,10 +89,8 @@ Define three density intervals (ρ in units of ρ_sat):
     P = −(ρ − ρ₂) + P(ρ₂).                                          (4)
 
 Set B = 90 MeV fm⁻³.  Region III saturates the causal limit (dP/dε = −1).  Continuity of P and dP/dρ at ρ₁ and ρ₂ fixes K₂ and P(ρ₂).  Inserting (2)–(4) into (1) yields
-
      h(ρ) = 1 + α ρ^{1/3} − β ρ  for ρ ≥ ρ₂,                        (5)
-    with α, β positive constants.  Solving h(ρ_cross)=0 gives
-
+with α, β positive constants.  Solving h(ρ_cross)=0 gives
      ρ_cross ≈ 4.3 ρ_sat.                                           (6)
     
 ### 2.3 Consistency Checks
@@ -116,7 +115,8 @@ Hence the EoS is viable and crosses h = 0.
 Adopt the Misner–Sharp metric
 
      ds² = −e^{2φ} dt² + e^{2λ} dr² + R²(r,t) dΩ²,             (8)
-    with Misner–Sharp mass
+
+with Misner–Sharp mass
 
      m(r,t) = R(1 − g^{μν}∂_μR ∂_νR)/2G.                       (9)
     
@@ -125,20 +125,24 @@ Adopt the Misner–Sharp metric
 At the instant the innermost shell hits ρ_cross, let R_s be the radius where the sound speed transitions to c_s→1.  A local outgoing null surface exists if
 
      2G m(R_s)/R_s < 1.                          (10)
-    Using the TOV solution with the EoS of § 2 (Appendix B) we obtain for a 2 M_⊙ core
+
+Using the TOV solution with the EoS of § 2 (Appendix B) we obtain for a 2 M_⊙ core
 
      m(R_s) ≈ 0.55 M_⊙, R_s ≈ 7 km ⇒ 2Gm/R_s ≈ 0.23 < 1.                   (11)
-    Thus a trapped surface cannot close before pressure reversal, and BH formation is averted.
+
+Thus a trapped surface cannot close before pressure reversal, and BH formation is averted.
 
 ### 3.3 Duration, Energetics
 
 Rarefaction wave speed ≈ c, so
 
      Δτ_b = R_s/c ≈ 2.3 × 10⁻⁵ s.                             (12)
-    Infall velocity just before bounce v_in ≈ √(2GM/R) ≈ 0.6 c.  Kinetic energy released
+
+Infall velocity just before bounce v_in ≈ √(2GM/R) ≈ 0.6 c.  Kinetic energy released
 
      E_b ≈ ½ M_core v_in² ≈ 2 × 10⁵³ erg.                     (13)
-    Envelope energy budget suffices to unbind ≳30 % of the outer mantle.
+     
+Envelope energy budget suffices to unbind ≳30 % of the outer mantle.
 
 ---
 
@@ -149,7 +153,8 @@ Rarefaction wave speed ≈ c, so
 Adiabatic compression of relativistic fermions (Region III) yields
 
      T_peak² ≈ π²(ρ − ρ_cross)/(γ g_*),                       (14)
-    with γ≈1 and g_* = 106.75.  For ρ_max ≈ 6 ρ_sat,
+     
+with γ≈1 and g_* = 106.75.  For ρ_max ≈ 6 ρ_sat,
 
      T_peak ≈ 0.5 TeV.                                        (15)
     
@@ -158,7 +163,7 @@ Adiabatic compression of relativistic fermions (Region III) yields
 Shaposhnikov (1991) gives
 
      Γ_sph/V = κ α_W⁴ T⁴ exp[−E_sph(T)/T],                    (16)
-    κ≈25, α_W = g²/4π≈0.033, E_sph/T≈1.9.  At μ_B ≤ 100 MeV, exponent shift is ≤0.2—negligible.
+κ≈25, α_W = g²/4π≈0.033, E_sph/T≈1.9.  At μ_B ≤ 100 MeV, exponent shift is ≤0.2—negligible.
 
 ### 4.3 Minimal CP Violation
 
@@ -169,7 +174,7 @@ Assume a Peccei–Quinn θ̄ ≈ 10⁻⁴ (well below the nEDM bound).  Effectiv
 Baryon number density n_B = ρ/m_n.  Total conversions inside volume V = (4π/3) R_s³:
 
      ΔB/B = (3 κ α_W⁴ T_peak³ Δτ_b)/(π² n_B)                  (17)
-    ⇒ ΔB/B ≈ 0.45.  Roughly half the baryons become antibaryons.
+⇒ ΔB/B ≈ 0.45.  Roughly half the baryons become antibaryons.
 
 ---
 
@@ -180,16 +185,15 @@ Baryon number density n_B = ρ/m_n.  Total conversions inside volume V = (4π/3)
 Treat matter (M) and antimatter (Ā) as inter-penetrating fluids with identical equation of state P = K ρ^{5/3}.  Setting the annihilation time >> dynamical time, total pressure is additive.  Solve Lane–Emden (n=1.5) to obtain
 
      R̄ ≈ 0.9 R_⊙ (M̄/1 M_⊙)^{-1/3}.                          (18)
-    With fallback M̄ ≈ 1.1 M_⊙ and f_ann≈0.1 lost to annihilation, final mass is ≈1.0 M_⊙.
+With fallback M̄ ≈ 1.1 M_⊙ and f_ann≈0.1 lost to annihilation, final mass is ≈1.0 M_⊙.
 
 ### 5.2 Surface Annihilation with ISM
 
 Ambient proton density n_ISM.  Incident flux Φ_p = n_ISM c.  Annihilation cross section σ_ann≈40 mb for ≤GeV protons.
-
      L_ann = 4π R̄² n_ISM c σ_ann m_p c²                      (19)
     
      = 2.1 L_⊙ (n_ISM/1 cm⁻³).                              (20)
-    Total luminosity (fusion + annihilation) ≲5 L_⊙ ≪ L_Edd, ensuring stability.
+Total luminosity (fusion + annihilation) ≲5 L_⊙ ≪ L_Edd, ensuring stability.
 
 ---
 
@@ -208,13 +212,16 @@ GW burst: quadrupole amplitude
 (i) 511 keV line:
 
      Φ_511 ≈ (2/π) L_ann/(4π d² E_511) ≈ 1.3 × 10⁻³ ph cm⁻² s⁻¹ (d/300 pc)⁻².              (23)
-    (ii) π⁰-decay γ-rays (0.1–5 GeV):
+
+(ii) π⁰-decay γ-rays (0.1–5 GeV):
 
      F_γ ≈ 10⁻⁷ cm⁻² s⁻¹ (d/kpc)⁻².                                                        (24)
-    (iii) Cosmic-ray anti-helium:
+
+(iii) Cosmic-ray anti-helium:
 
      Φ_{^3Hē}(1–10 GeV/n) ≈ 6 × 10⁻⁷ m⁻² s⁻¹ sr⁻¹ GeV⁻¹ (d/300 pc)⁻².                      (25)
-    (iv) Optical/IR spectrum: L ≈ 3 L_⊙, hydrogen/helium lines only; metals absent due to surface annihilation.
+
+(iv) Optical/IR spectrum: L ≈ 3 L_⊙, hydrogen/helium lines only; metals absent due to surface annihilation.
 
 ---
 
@@ -223,8 +230,9 @@ GW burst: quadrupole amplitude
 Core-collapse events over 10 Gyr: N_CC ≈ 2 × 10⁸.  Probability of degenerate bounce
 
      ε_DB ≈ 3 × 10⁻³                                        (26)
-    (from compactness distribution folded with EoS; Appendix C).  Surviving anti-stars today
-
+     
+(from compactness distribution folded with EoS; Appendix C).  Surviving anti-stars today
+    
      N̄ ≈ ε_DB N_CC ≈ 600.                                   (27)
     
 ---
