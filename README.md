@@ -4,7 +4,6 @@
 
 **This repository presents a fully analytic, Standard-Model framework for “degenerate-bounce” core collapse—no simulations, code, or external data required. It supplies closed-form equations of state, derives a relativistic bounce that converts baryons to antibaryons via electroweak sphalerons, and lists concrete gravitational-wave, neutrino, gamma-ray, and anti-helium signals that render the scenario decisively falsifiable within a decade.**
 
-
 ---
 
 ### Key Features
@@ -21,7 +20,7 @@
 ```
 Manuscript version: 1.0 (self-contained; no external data, code, or numerical tables)
 ```
-
+Download the full paper here: [Degenerate-Bounce Anti-Stars.pdf](https://github.com/mikelexicon/degenerate-bounce-antistar/raw/main/Degenerate-Bounce%20Anti-Stars.pdf)
 
 ---
 
