@@ -1,8 +1,8 @@
 # Degenerate-Bounce Anti-Stars: A Falsifiable Formation Mechanism in Stellar Collapse
 
-## An Explicit, Fully Analytic Framework Within the Standard Model
+Keywords: core-collapse supernovae, stars: neutron, equation of state, baryon number violation, antimatter stars, gravitational waves, neutrinos, gamma rays: general
 
-**This repository presents a fully analytic, Standard-Model framework for “degenerate-bounce” core collapse—no simulations, code, or external data required. It supplies closed-form equations of state, derives a relativistic bounce that converts baryons to antibaryons via electroweak sphalerons, and lists concrete gravitational-wave, neutrino, gamma-ray, and anti-helium signals that render the scenario decisively falsifiable within a decade.**
+**This repository presents a fully analytic, Standard-Model framework for degenerate-bounce core collapse—no simulations, code, or external data required. It supplies closed-form equations of state, derives a relativistic bounce that converts baryons to antibaryons via electroweak sphalerons, and lists concrete gravitational-wave, neutrino, gamma-ray, and anti-helium signals that render the scenario decisively falsifiable within a decade.**
 
 ---
 
